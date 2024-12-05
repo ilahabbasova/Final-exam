@@ -1,0 +1,61 @@
+/* Body Styling */
+body {
+    background-color: rgb(15, 89, 52);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Styling */
+tabel, tr,th,td{
+    border: 1px solid black;
+}
+table {
+    background-color: rgb(114, 204, 134);
+    margin-top: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Caption Styling */
+caption {
+    caption-side: top;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+/* Ordered List Styling */
+ol {
+    padding-right: 10px;
+}
+
+/* Figure Styling */
+figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Figure Caption Styling */
+figcaption {
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    padding: 10px;
+    width: 150px;
+    
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
